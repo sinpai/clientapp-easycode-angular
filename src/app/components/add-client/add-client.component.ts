@@ -35,7 +35,7 @@ export class AddClientComponent implements OnInit {
   ngOnInit() {
   }
 
-  onSubmit() {
+  onSubmit(form) {
 
     if ( !this.form.valid ) {
       this.flashMassage.show("Please enter form", {
